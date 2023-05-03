@@ -1,10 +1,8 @@
 class Robot:
     encendido = False
-
-    def __init__(self,posicion_robot:list,posicion_brazo:list):
-        self.posicion_robot = posicion_robot
-        self.posicion_brazo = posicion_brazo
-
+    posicion_robot = [0,0]
+    posicion_brazo = [0,0,0]
+    
     def esta_encendido(self):
         return self.encendido
 
